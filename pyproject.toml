@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "myplotstyle"
-version = "0.1.1"
+name = "JansPlottingStuff"
+version = "0.1.2"
 description = "Reusable Matplotlib style + colormap setup"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -17,4 +17,4 @@ dependencies = [
 package-dir = {"" = "src"}
 
 [tool.setuptools.package-data]
-myplotstyle = ["*.mplstyle"]
+JansPlottingStuff = ["*.mplstyle"]
