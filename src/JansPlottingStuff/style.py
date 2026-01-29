@@ -12,4 +12,4 @@ def apply(style_filename: str = "natcomm_paper.mplstyle",
         colormaps.register(cm.batlow, name="batlow")
 
     style_path = files("JansPlottingStuff") / style_filename
-    plt.style.user(str(style_path))
+    plt.style.use(str(style_path))
