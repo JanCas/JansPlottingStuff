@@ -68,9 +68,9 @@ legend.fancybox: False
 # Default colormap set to batlow
 image.cmap: batlow
 
-# Line color cycle = discrete batlow samples
-# (sampled from Crameri batlow colormap)
-axes.prop_cycle: cycler(color=["#011959", "#2A3F8F", "#4C67AF", "#6D8EC2", "#90B4CE", "#B5D6D6", "#D7E9C2", "#F1D79D", "#F9AA72", "#EB6A45", "#C12B37"])
+# Line color cycle = categorical batlow (full batlowS, 100 colors)
+# (from Crameri batlowS colormap, ordered for max perceptual contrast)
+axes.prop_cycle: cycler(color=["#011959", "#faccfa", "#828231", "#226061", "#f19d6b", "#4d734d", "#114360", "#fdb4b4", "#c09036", "#175262", "#fcbfd6", "#fca890", "#356a59", "#0d315d", "#a18a2b", "#677b3e", "#dd954d", "#08255b", "#fdaea2", "#fbc6e8", "#b18d2f", "#cf9340", "#91862d", "#2b655e", "#747e38", "#134b61", "#f8a27e", "#0f3b5f", "#416f53", "#1b5962", "#fdbac4", "#5a7745", "#e9995c", "#607942", "#477150", "#faa587", "#fdab9a", "#154f62", "#7b8034", "#6d7c3b", "#c8913b", "#e39754", "#f59f74", "#195662", "#b98f32", "#a98c2c", "#0e365e", "#103f60", "#537549", "#fbc9f1", "#26635f", "#99882c", "#124761", "#fdb7bc", "#1e5d62", "#8a842f", "#fdb1ab", "#fcc3df", "#fdbccd", "#30685c", "#051f5a", "#0b2b5c", "#3b6d56", "#d69446", "#ed9a62", "#447052", "#185462", "#246160", "#bd8f34", "#787f36", "#4a724e", "#fdafa7", "#ad8c2d", "#9d892b", "#fcbed1", "#28645f", "#f7a179", "#f39e70", "#50744b", "#95872c", "#0c2e5d", "#0a285c", "#8e852e", "#fca995", "#fcc4e3", "#114160", "#a58b2c", "#6a7b3d", "#031c5a", "#386c58", "#144d62", "#fdac9e", "#33695a", "#b58e30", "#134961", "#d29343", "#205e61", "#e69858", "#ef9b67", "#fba68c"])
 
 ######### PADDING #########
 axes.labelpad: 2.0
